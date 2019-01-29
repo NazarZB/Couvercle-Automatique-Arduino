@@ -1,6 +1,6 @@
 # **Couvercle poubelle automatique**
 
-Ce projet a été réalisé par @Nazar.ZB et @
+Ce projet a été réalisé par @Nazar.ZB et @olgaBD
 
 ## **Résultat final :** 
 
