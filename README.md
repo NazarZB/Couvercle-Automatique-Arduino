@@ -3,7 +3,7 @@
 Ce projet a été réalisé par @Nazar.ZB et @olgaBD
 
 ## **Résultat final :** 
-![video](
+[![video](https://img.youtube.com/vi/lu7Z7bEkcFc/0.jpg)](https://www.youtube.com/watch?v=lu7Z7bEkcFc)
 # Branchements 
 
 ![Schéma](https://image.noelshack.com/fichiers/2019/05/2/1548778068-shema-bb.png)
