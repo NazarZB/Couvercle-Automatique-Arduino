@@ -6,27 +6,35 @@ UltraSonicDistanceSensor distanceSensor(7, 8);
 
 
 void setup() {
-  // put your setup code here, to run once:
-Serial.begin(9600);
+  
 
+Serial.begin(9600);
 servoMotor.attach(6);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+ 
 
   double distance = distanceSensor.measureDistanceCm();
 
-Serial.println(distance);
+//Serial.println(distance);
 
 
-if(distance < 30) {
-
-  servoMotor.write(100);
+ if(distance < 30 && distance >0) {
+  
+  for(int i = 0; i < 80; i++) {
+    servoMotor.write(i);
+    delay(40);
+}     
+    delay(5000);
     
-} else {
+} else {  
   servoMotor.write(10);
+   
+}
+  
+   
+    
+}
 
-}
-}
