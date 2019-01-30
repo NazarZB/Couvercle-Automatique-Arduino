@@ -2,7 +2,7 @@
 
 Ce projet a été réalisé par @Nazar.ZB et @olgaBD
 
-## **Résultat final :** 
+## **Vidéo :** 
 [![video](https://img.youtube.com/vi/lu7Z7bEkcFc/0.jpg)](https://www.youtube.com/watch?v=lu7Z7bEkcFc)
 # Branchements 
 
