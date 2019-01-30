@@ -55,11 +55,17 @@ double distance = distanceSensor.measureDistanceCm();
 On ajoute une condition pour l'ouverture et la fermeture du moteur : 
  
 ``` c++
-if(distance < 30) {
-  servoMotor.write(100);
+ if(distance < 30 && distance >0) {
+  
+  for(int i = 0; i < 80; i++) {
+    servoMotor.write(i);
+    delay(40);
+}     
+    delay(5000);
     
- } else {
-    servoMotor.write(10);
+} else {  
+  servoMotor.write(10);
+   
 }
 ``` 
 
