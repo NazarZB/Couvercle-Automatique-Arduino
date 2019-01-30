@@ -23,9 +23,9 @@ void loop() {
 
  if(distance < 30 && distance >0) {
   
-  for(int i = 0; i < 80; i++) {
+  for(int i = 10; i < 80; i++) {
     servoMotor.write(i);
-    delay(40);
+    delay(35);
 }     
     delay(5000);
     
@@ -37,4 +37,3 @@ void loop() {
    
     
 }
-
